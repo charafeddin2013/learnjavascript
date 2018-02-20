@@ -1,3 +1,8 @@
+/*
+In Javascrip there are three primitive data types:
+String,Number,Boolean
+*/
+
 //We donot need to declare the variable type
 
 //declare number variables
@@ -17,3 +22,7 @@ console.log("The length of \""+ greetings +"\" is: " +len);
 
 // get the type of variables
 console.log(typeof number + " " +typeof bool + " " +typeof greetings);
+
+// to erase the contents of a variable, use null value
+bool=null;
+console.log("now bool variable type is: ",typeof bool); 
